@@ -1,0 +1,36 @@
+
+body{
+    background-image: url(image/AdobeStock_49047606_Preview.jpg);
+    
+    max-width: 100%;
+   
+}
+.transparent{
+    background-color: transparent;
+}
+.design{
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+}
+.yellow{
+    color: rgb(204, 179, 115);
+}
+
+
+.Warning{
+    color: #dc3545;
+    background-color: rgb(54, 54, 54);
+    border-radius: 3px;
+    margin: 5px;
+}
+.Danger:hover{
+    transition: .4s;
+    transform: scale(1.1);
+    color:#dc3545;
+}
+
+.isCompleted {
+    text-decoration-line: line-through;
+    text-decoration-color: #dc3545;
+    text-decoration-style: wavy;
+}
